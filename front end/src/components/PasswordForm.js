@@ -138,11 +138,10 @@ const PasswordForm = ({ password, onClose, onSuccess }) => {
               />
               <button 
                 type="button" 
-                className="btn btn-secondary"
                 onClick={generatePassword}
                 disabled={loading}
               >
-                Générer
+               🔐Générer
               </button>
             </div>
           </div>
